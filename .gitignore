@@ -1,0 +1,18 @@
+# criar .gitignore com conteúdo padrão
+@'
+# Binaries and build artefacts
+/bin/
+/obj/
+/Debug/
+/Release/
+*.exe
+*.o
+*.obj
+
+# VS Code
+.vscode/
+
+# Sistema
+Thumbs.db
+.DS_Store
+'@ | Set-Content .gitignore -Encoding UTF8
